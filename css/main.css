@@ -1,3 +1,26 @@
 body {
-    background-color: lightsalmon;
+    margin: 0;
+    padding: 0;
+}
+
+/* parent */
+#board {
+    background-color: rgba(128, 128, 128, 0.489);
+    height: 100vh; 
+   /* all the available space */
+}
+
+/* child */
+#player {
+    background-color: fuchsia;
+    /* width: 50vw;  
+    height: 50vh; 
+
+    I added this inside the js file so when changing 
+    the player width and height it changes the style to
+    using this.width & this. height
+    
+    */
+    position: absolute;
+
 }
